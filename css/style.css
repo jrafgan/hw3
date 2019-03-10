@@ -1,2 +1,153 @@
+.container {
+    width: 1108px;
+    font-family: arial, sans-serif;
+    display: grid;
+    margin: 0 auto;
+}
 
+.header {
+    margin: 10px 100px;
+}
 
+.logo_div {
+    position: relative:
+}
+
+.logo_img {
+    position: absolute;
+    top: 13px;
+    left: 110px;
+}
+
+.logo_p {
+    display: inline;
+    font-size: 37px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 85px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+li {
+    display: inline-grid;
+    margin: 0 20px;
+}
+
+.ul {
+    padding-left: 0;
+}
+
+.banner {
+    position: relative;
+    display: grid;
+}
+
+.banner_block {
+    width: 100%;
+}
+
+.div_in_banner {
+    position: absolute;
+    top: 14%;
+    left: 27%;
+    text-align: center;
+}
+
+.consultation_btn {
+    color: #fff;
+    font-size: 23px;
+    background: #f8cd53;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.banner_1text {
+    font-size: 48px;
+}
+
+.banner_2text {
+    font-size: 30px;
+}
+
+.banner_1text,
+.banner_2text {
+    font-weight: bold;
+    color: #fff;
+}
+
+.about_us_block {
+    text-align: center;
+}
+
+.about_text1 {
+    font-size: 36px;
+}
+
+.about_text2 {
+    font-size: 20px;
+}
+
+.about_text1,
+.about_text2,
+.card_text1 {
+    font-weight: bold;
+    color: #424242;
+    text-align: center;
+}
+
+.card_text1 {
+    font-size: 22px;
+}
+
+.card_text2 {
+    font-size: 13px;
+    color: #5b5b5b;
+}
+
+.cards_block {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 100px;
+
+}
+
+.card {
+    display: grid;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: 115px;
+}
+
+.footer_p {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.footer_a {
+    color: #fff;
+}
+
+.footer {
+    height: 70px;
+    background: #515151;
+    display: grid;
+    justify-content: end;
+    padding-right: 30px;
+}
